@@ -7,15 +7,138 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
-.navbar, .logo{
+ul{
+  list-style: none;
+  display: flex;
+  gap: 44px;
+  display: none;
+}
+.navbar,
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar {
+  gap: 9.5rem;
+  height: 4rem;
+}
+.logo {
+  gap: 1rem;
+}
+/* shared styles */
+.centre-text {
+  text-align: center;
+}
+.color-2{
+  color: rgb(255, 255, 255)
+}
+/* Color one */
+#color-one{
+    background-color: rgb(255, 84, 0);
+}
+/* section one style */
+.section-one{
+  background-image: url(Images/Group\ 13\ \(1\)\ \(1\).png);
+  background-position: center;
+  width: 90%;
+  height: 483px;
+  margin: 0 auto;
+  display: block;
+  padding-top: 2rem;
+  border-radius: 16px;
+  margin-top: 1rem;
+}
+.section-box-one {
+  width: 304px;
+  height: 99px;
+  margin: 0 auto;  
+}
+.section-box-two {
+  width: 287px;
+  height: 288px;
+  margin: 0 auto;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+}
+.input {
+  width: 255px;
+  height: 52px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 1rem;
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  border: none;
+}
+::placeholder, option ,select{
+    color: rgba(19, 19, 24, 0.5);
+    font-weight: 400;
+    padding-left: 10px;
+}
+
+/* responsive */
+@media only screen and (min-width: 850px) {
+  /* navbar styles */
+  .navbar{
     display: flex;
-    justify-content: center;
     align-items: center;
-}
-.navbar{
-    gap: 9.5rem;
-    height: 4rem;
-}
-.logo{
-    gap: 1rem;
+    gap: 400px;
+  }
+  .fa-solid{
+    display: none;
+  }
+  ul{
+    display: unset;
+    list-style: none;
+    display: flex;
+    gap: 44px;
+  }
+  /* section-one */
+  .section-one-outer{
+    /* align-items: center; */
+    /* margin: auto; */
+    width: 800px;
+    height: 288px;
+    margin: auto;
+  }
+  .section-one{
+    width: 1170px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    
+  }
+  .section-box-one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .section-title{
+    width: 596px;
+    height: 80px;
+    font-size: 64px;
+    font-weight: 800;
+  }
+  .section-description{
+    width: 676px;
+    height: 52px;
+    font-weight: 400;
+  }
+  .section-box-two{
+    width: 800px;
+    height: 84px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 48px;
+  }
+  .input{
+    width: 174px;
+    height: 52px;
+    margin: 0 24px;
+  }
 }
