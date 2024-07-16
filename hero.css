@@ -280,5 +280,28 @@ select {
       margin: 0 auto;
     }
   }
-
+  .section-three-box-two{
+    width: 73rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    & img{
+      width: 35rem;
+      height: 300px;
+    }
+  }
+  .row-one ,.row-two, .row-three{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    margin-top: 1rem;
+}
+  .row-two {
+    grid-template-columns: 0.8fr 0.5fr 0.7fr;
+  }
+  .row-three img{
+    grid-template-columns: repeat(0.75fr 1.25fr);
+  }
 }
