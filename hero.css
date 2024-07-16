@@ -26,6 +26,10 @@ body {
 .logo {
   gap: 1rem;
 }
+.fa-solid{
+  /* padding: 10px; */
+  font-size: 22px;
+}
 /* shared styles */
 .centre-text {
   text-align: center;
@@ -125,6 +129,30 @@ select {
     height: 342px;
     margin: 0 auto;
     margin-top: 24px;
+  }
+}
+/* section 3 styles */
+.section-three-box-one{
+  width: 309px;
+  height: 72px;
+  margin: 0 auto;
+  & h3{
+    margin-top: 24px;
+    margin-bottom: 16px;
+  }
+  & p{
+    padding-bottom: 16px;
+  }
+}
+.section-three-box-two{
+  width: 335px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 0 auto;
+  margin-top:45px;
+  & img{
+    height: 176px;
   }
 }
 /* responsive */
