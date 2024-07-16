@@ -7,4 +7,15 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
-
+.navbar, .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar{
+    gap: 9.5rem;
+    height: 4rem;
+}
+.logo{
+    gap: 1rem;
+}
