@@ -7,7 +7,7 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
-.nav-item{
+.nav-item {
   list-style: none;
   display: flex;
   gap: 44px;
@@ -30,21 +30,21 @@ body {
 .centre-text {
   text-align: center;
 }
-.color-2{
-  color: rgb(255, 255, 255)
+.color-2 {
+  color: rgb(255, 255, 255);
 }
-.color-3{
+.color-3 {
   color: rgba(19, 19, 24, 0.7);
 }
-.color-4{
+.color-4 {
   color: rgb(90, 90, 93);
 }
 /* Color one */
-#color-one{
-    background-color: rgb(255, 84, 0);
+#color-one {
+  background-color: rgb(255, 84, 0);
 }
 /* section one style */
-.section-one{
+.section-one {
   background-image: url(Images/Group\ 13\ \(1\)\ \(1\).png);
   background-position: center;
   width: 350px;
@@ -58,7 +58,7 @@ body {
 .section-box-one {
   width: 304px;
   height: 99px;
-  margin: 0 auto;  
+  margin: 0 auto;
 }
 .section-box-two {
   width: 287px;
@@ -81,31 +81,33 @@ body {
   background: rgb(255, 255, 255);
   border: none;
 }
-::placeholder, option ,select{
-    color: rgba(19, 19, 24, 0.5);
-    font-weight: 400;
-    padding-left: 10px;
+::placeholder,
+option,
+select {
+  color: rgba(19, 19, 24, 0.5);
+  font-weight: 400;
+  padding-left: 10px;
 }
 /* section two */
-.section-two-box-one{
+.section-two-box-one {
   width: 335px;
   margin: 0 auto;
 }
-.section-two-list{
+.section-two-list {
   margin-left: 15px;
   margin-bottom: 16px;
-  & li{
+  & li {
     margin-bottom: 12px;
     margin-top: 16px;
     color: rgba(19, 19, 24, 0.7);
     font-size: 14px;
   }
 }
-.section-two-title{
+.section-two-title {
   margin-top: 24px;
   margin-bottom: 16px;
 }
-.btn-two{
+.btn-two {
   border-radius: 8px;
   background: rgb(255, 84, 0);
   width: 174px;
@@ -116,9 +118,9 @@ body {
   font-size: 20px;
   font-weight: 800;
 }
-.section-two-box-two{
+.section-two-box-two {
   display: flex;
-  & img{
+  & img {
     width: 335px;
     height: 342px;
     margin: 0 auto;
@@ -128,84 +130,83 @@ body {
 /* responsive */
 @media only screen and (min-width: 850px) {
   /* navbar styles */
-  .navbar{
+  .navbar {
     display: flex;
     align-items: center;
     gap: 400px;
   }
-  .fa-solid{
+  .fa-solid {
     display: none;
   }
-  .nav-item{
+  .nav-item {
     display: unset;
     list-style: none;
     display: flex;
     gap: 44px;
   }
   /* section-one */
-  .section-one-outer{
+  .section-one-outer {
     /* align-items: center; */
     /* margin: auto; */
     width: 800px;
     height: 288px;
     margin: auto;
   }
-  .section-one{
+  .section-one {
     width: 1170px;
     height: 500px;
     display: flex;
     align-items: center;
-    
   }
-  .section-box-one{
+  .section-box-one {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .section-title{
+  .section-title {
     width: 596px;
     height: 80px;
     font-size: 64px;
     font-weight: 800;
   }
-  .section-description{
+  .section-description {
     width: 676px;
     height: 52px;
     font-weight: 400;
   }
-  .section-box-two{
+  .section-box-two {
     width: 800px;
     height: 84px;
     display: flex;
     flex-direction: row;
     margin-top: 48px;
   }
-  .input{
+  .input {
     width: 174px;
     height: 52px;
     margin: 0 24px;
   }
   /* section two */
-  .section-two{
+  .section-two {
     display: flex;
     justify-content: center;
     gap: 53px;
     margin-top: 100px;
     height: 470px;
-    & .section-two-box-one{
+    & .section-two-box-one {
       width: 577px;
       margin: 0;
     }
-    & .section-two-box-two{
+    & .section-two-box-two {
       width: 540px;
       height: 470px;
     }
-    .section-two-title{
+    .section-two-title {
       font-size: 40px;
       font-weight: 800;
       margin-bottom: 24px;
     }
-    .section-two-description{
+    .section-two-description {
       margin-bottom: 32px;
       margin-top: 24px;
     }
