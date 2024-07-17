@@ -283,6 +283,20 @@ select {
   font-size: 18px;
   color: white;
 }
+.btn{
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+.btn-four{
+  width: 210px;
+  height: 52px;
+  border-radius: 8px;
+  background-color: rgb(255, 84, 0);
+  color: white;
+  border: none;
+}
 /* responsive */
 @media only screen and (min-width: 850px) {
   /* navbar styles */
