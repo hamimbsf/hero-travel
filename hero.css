@@ -369,4 +369,21 @@ select {
       height: 300px;
     }
   }
+  /* Section Four */
+  .section-four{
+    width: 73rem;
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+  .section-four-box-one{
+    width: 643px;
+    height: 126px;
+    margin: 0 auto;
+    & h3, p{
+      text-align: center;
+      width: 643px;
+      margin: 0 auto;
+    }
+  }
+  /* .section-four-outer-one{} */
 }
