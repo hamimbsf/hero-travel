@@ -370,7 +370,7 @@ select {
     }
   }
   /* Section Four */
-  .section-four{
+  /* .section-four{
     width: 73rem;
     margin: 0 auto;
     margin-top: 100px;
@@ -384,6 +384,6 @@ select {
       width: 643px;
       margin: 0 auto;
     }
-  }
+  } */
   /* .section-four-outer-one{} */
 }
