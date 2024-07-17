@@ -26,7 +26,7 @@ body {
 .logo {
   gap: 1rem;
 }
-.fa-solid{
+.fa-bars{
   /* padding: 10px; */
   font-size: 22px;
 }
@@ -220,7 +220,7 @@ select {
   & p{
     margin-top: 1rem;
   }
-  & .fa-solid{
+  & .fa-bars{
     font-size: 3rem;
   }
 }
@@ -233,7 +233,7 @@ select {
     align-items: center;
     gap: 400px;
   }
-  .fa-solid {
+  .fa-bars {
     display: none;
   }
   .nav-item {
@@ -369,21 +369,39 @@ select {
       height: 300px;
     }
   }
+  
   /* Section Four */
-  /* .section-four{
-    width: 73rem;
-    margin: 0 auto;
+  .section-four{
     margin-top: 100px;
   }
-  .section-four-box-one{
-    width: 643px;
-    height: 126px;
+  .section-three-box-two{
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 24px; */
+    margin-top: 3rem;
+    justify-content: space-between;
+  }
+  .section-four-outer-one, .section-four-outer-two, .section-four-outer-three{
+    width: 573px;
+    height: 284px;
+    margin: 0;
+  }
+  .section-four-outer-three{
     margin: 0 auto;
-    & h3, p{
-      text-align: center;
-      width: 643px;
-      margin: 0 auto;
+    margin-top: 24px;
+  }
+  .section-four-inner{
+    width: 486px;
+    height: 220px;
+    & .fa-solid{
+      font-size: 4rem;
     }
-  } */
-  /* .section-four-outer-one{} */
+    & h3{
+      font-size: 24px;
+    }
+    & p{
+      font-size: 1rem;
+    }
+  }
+  
 }
