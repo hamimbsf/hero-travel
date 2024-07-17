@@ -234,7 +234,7 @@ select {
     margin: 0 auto;
   }
 }
-.hotel-one{
+.hotel-one, .hotel-two, .hotel-three{
   background-image: url(Images/Group\ 39.png);
   width: 335px;
   height: 500px;
@@ -267,6 +267,11 @@ select {
       }
     }
   }
+}
+.hotel-two{
+  background-image: url(Images/Group\ 40.png);
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 .btn-three{
   width: 130px;
@@ -455,5 +460,60 @@ select {
     & p{
       font-size: 1rem;
     }
+  }
+  .section-five{
+    /* width: 1170px;
+    height: 500px;
+    margin: 0 auto; */
+    & .section-three-box-one{
+      width: 643px;
+      height: 126px;
+      margin: 0 auto;
+      margin-top: 100px;
+      margin-bottom: 48px;
+    }
+  }
+  .hotel-one, .hotel-three{
+    width: 1170px;
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+    & .hotel-poster{
+      width: 579px;
+      height: 389px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-10%, -50%);
+      & .inner-poster{
+        width: 452px;
+        height: 289px;
+      }
+    }
+  }
+  .fa-solid{
+    color: rgb(255, 84, 0);
+    font-size: 20px;
+  }
+  .hotel-two{
+    width: 1170px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    position: relative;
+    & .hotel-poster{
+      width: 579px;
+      height: 389px;
+      position: absolute;
+      top: 50%;
+      right: 50%;
+      transform: translate(10%, -50%);
+    }
+  }
+  .btn-three{
+    width: 150px;
+    height: 52px;
+    font-size: 20px;
   }
 }
