@@ -275,6 +275,8 @@ select {
   background: rgb(255, 84, 0);
   border: none;
   margin-top: 1rem;
+  font-size: 18px;
+  color: white;
 }
 /* responsive */
 @media only screen and (min-width: 850px) {
